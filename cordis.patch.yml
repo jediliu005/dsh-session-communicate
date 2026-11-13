@@ -1,0 +1,4 @@
+- insert:
+    - id: session-communicate
+      name: dsh-session-communicate
+      config: {}
