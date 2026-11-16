@@ -1,6 +1,6 @@
 {
   "name": "dsh-session-communicate",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "description": "让两个已有 DSH 会话在每天固定时间按轮次对话：可配置双方会话、发起方、对话目的、轮次与时间；每一句都附带会话规则。",
   "main": "./lib/index.js",
@@ -16,12 +16,20 @@
     },
     "client": {
       "platform": "web",
-      "inject": ["slots"]
+      "inject": [
+        "slots"
+      ]
     }
   },
   "engines": {
     "node": ">=22.15"
   },
-  "keywords": ["dsh", "plugin", "session", "conversation", "scheduler"],
+  "keywords": [
+    "dsh",
+    "plugin",
+    "session",
+    "conversation",
+    "scheduler"
+  ],
   "license": "MIT"
 }
